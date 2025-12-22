@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build-lto:
-    runs-on: depot-ubuntu-24.04
+    runs-on: [self-hosted, monkci-runners-4vcpu]
     steps:
       - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3  # v6.0.0
         with:
