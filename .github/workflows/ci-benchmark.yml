@@ -22,10 +22,6 @@ jobs:
       fail-fast: false
       matrix:
         runner:
-          - monkci-ubuntu-24.04-4-6000iops
-          - monkci-ubuntu-24.04-4-3600iops
-          - monkci-ubuntu-24.04-4-4000iops
-          - monkci-ubuntu-24.04-4-3900iops
           - depot-ubuntu-24.04-4
           - ubuntu-latest
     steps:
